@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+
+    <title>Meu Projeto Prática</title>
+</head>
+
+<body class="min-h-screen bg-pink-950 text-slate-50">
+
+    <div class="flex flex-col h-screen">
+
+        <header class="flex items-center justify-between px-6 py-4 border-b border-pink-800">
+
+
+            <div>
+
+                <h1 class="text-lg font-semibold">
+                    ProductivityHub
+                </h1>
+
+                <p class="text-sn text-pink-400">
+                    Dashboard de Produtividade
+                </p>
+
+            </div>
+
+
+
+            <div class="flex items-center gap-4">
+
+                <button class="p-2 rounded-lg">
+                    <i class="bx-bell text-xl text-pink-400"></i>
+                </button>
+
+                <button class="flex items-center px-3 py-2 rounded-lg gap-2">
+
+                    <div class="w-8 h-8 rounded-full bg-rose-400/50 flex justify-center items-center">
+                        <i class="bx bx-user text-rose-400"></i>
+                    </div>
+
+                    <span class="text-sm">
+                        Brena.-.manu
+                    </span>
+
+                </button>
+
+            </div>
+
+
+        </header>
+
+
+        <div class="flex flex-1 overflow-hidden">
+
+            <aside class="flex flex-col bg-pink-900 w-64 h-full border-r border-rose-800 p-4">
+
+                <nav class="flex flex-col gap-1">
+
+                    <h2 class="text-xs text-pink-500 font-medium px-3 py-2 uppercase">Menu Principal</h2>
+
+
+                    <button class="flex intems-center text-pink-400 px-3 py-2 rounded-lg gap-2">
+
+                        <i class="bx bx-home"></i>
+
+                        <span>Visão Geral</span>
+
+                    </button>
+
+                    <button class="flex intems-center text-pink-400 px-3 py-2 rounded-lg gap-2">
+
+                        <i class="bx bx-chart-sine"></i>
+
+                        <span>Relatórios</span>
+
+                    </button>
+
+                </nav>
+
+            </aside>
+
+            <main class="flex-1 p-6 overflow-y-auto">
+
+                <div class="max-w-7xl mx-auto">
+
+                    <div class="flex flex-col gap-6">
+
+                        <section>
+
+                            <h2 class="text-lg text-pink-50 mb-4">
+                                Estátisticas da Semana
+                            </h2>
+
+                            <div class="grid grid-cols-2 gap-4">
+
+                                <article class="bg-pink-900 border border-pink-800 rounded-xl p-5">
+
+                                    <div class="flex items-center justify-between mb-4">
+
+                                        <div class="p-2 bg-pink-500/50 rounded-full">
+                                            <i class="bx bx-check text-pink-900"></i>
+                                        </div>
+
+                                        <div class="flex items-center text-xs gap-1 text-emerald-300">
+                                            <i class="bx bx-trending-up"></i>
+                                            +16%
+                                        </div>
+
+                                    </div>
+
+                                    <p class="text-2xl font-bold">12</p>
+                                    <p class="text-sm mt-1 text-pink-400">Tarefas concluídas</p>
+
+                                </article>
+
+                                <article class="bg-pink-900 border border-pink-800 rounded-xl p-5">
+
+                                    <div class="flex items-center justify-between mb-4">
+
+                                        <div class="p-2 bg-pink-500/50 rounded-full">
+                                            <i class="bx bx-x text-pink-900"></i>
+                                        </div>
+
+                                        <div class="flex items-center text-xs gap-1 text-red-300">
+                                            <i class="bx bx-trending-down"></i>
+                                            -67%
+                                        </div>
+
+                                    </div>
+
+                                    <p class="text-2xl font-bold">27</p>
+                                    <p class="text-sm mt-1 text-pink-400">Tarefas a serem Concluídas</p>
+
+                                </article>
+
+                                <article class="bg-pink-900 border border-pink-800 rounded-xl p-5">
+
+                                    <div class="flex items-center justify-between mb-4">
+
+                                        <div class="p-2 bg-pink-500/50 rounded-full">
+                                            <i class="bx bx-check text-pink-950"></i>
+                                        </div>
+
+                                        <div class="flex items-center text-xs gap-1 text-emerald-300">
+                                            <i class="bx bx-trending-up"></i>
+                                            +4%
+                                        </div>
+
+                                    </div>
+
+                                    <p class="text-2xl font-bold">57</p>
+                                    <p class="text-sm mt-1 text-pink-400">Tarefas em andamento</p>
+
+                                </article>
+
+                                <article class="bg-pink-900 border border-pink-800 rounded-xl p-5">
+
+                                    <div class="flex items-center justify-between mb-4">
+
+                                        <div class="p-2 bg-pink-500/50 rounded-full">
+                                            <i class="bx bx-check text-pink-950"></i>
+                                        </div>
+
+                                        <div class="flex items-center text-xs gap-1 text-red-300">
+                                            <i class="bx bx-trending-down"></i>
+                                            -30%
+                                        </div>
+
+                                    </div>
+
+                                    <p class="text-2xl font-bold">67</p>
+                                    <p class="text-sm mt-1 text-pink-400">Tarefas em andamento</p>
+
+                                </article>
+
+                                <article class="bg-pink-900 border border-pink-800 rounded-xl p-5">
+
+                                    <div class="flex items-center justify-between mb-4">
+
+                                        <div class="p-2 bg-pink-500/50 rounded-full">
+                                            <i class="bx bx-check text-pink-950"></i>
+                                        </div>
+
+                                        <div class="flex items-center text-xs gap-1 text-red-300">
+                                            <i class="bx bx-trending-down"></i>
+                                            -11%
+                                        </div>
+
+                                    </div>
+
+                                    <p class="text-2xl font-bold">12</p>
+                                    <p class="text-sm mt-1 text-pink-400">Tarefas a serem Concluídas</p>
+
+                                </article>
+
+                            </div>
+
+                        </section>
+
+                    </div>
+
+                </div>
+
+            </main>
+
+        </div>
+
+</body>
+
+</html>
